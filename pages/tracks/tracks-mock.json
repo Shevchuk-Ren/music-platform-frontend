@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Summertime Sadness",
+        "artist": "Lana Del Rey",
+        "text": "tyty",
+        "picture": "picture/9ad038eb-d2d2-42f7-8cc0-32e7ce6e5cfa.jpg",
+        "audio": "audio/6d3bf733-dd61-40b9-8931-111a1689c0e2.webm",
+        "listens": 0,
+        "comments": [{
+            "_id": "1",
+            "username": "Petka",
+            "text": "Good"
+          }],
+        "_id": "62efef38512f87af3d06b0a4",
+    },
+    {
+        "name": "Young and Beautiful",
+        "artist": "Lana Del Rey",
+        "text": "tyty",
+        "picture": "picture/5a887cf4-6b73-4148-808e-6feeba03ba68.jpg",
+        "audio": "audio/96e48bc9-833d-4e36-a9ca-b6c9e85d57d2.webm",
+        "listens": 0,
+        "comments": [{
+            "_id": "1",
+            "username": "Petka",
+            "text": "Good"
+          }],
+        "_id": "62efeffb512f87af3d06b0a6",
+        "__v": 0
+    }
+]
