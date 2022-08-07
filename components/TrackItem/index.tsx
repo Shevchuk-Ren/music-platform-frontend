@@ -12,9 +12,6 @@ import styles from './TrackItem.module.scss';
 const TrackItem: FC<ITrackItemProps> = ({track, isActive}) => {
     const theme = useTheme();
   return (
-//    <Card className={styles.card}>
-//     {track.name}
-//    </Card>
 <Card className={styles.card}>
 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
   <CardContent sx={{ flex: '1 0 auto' }}>
