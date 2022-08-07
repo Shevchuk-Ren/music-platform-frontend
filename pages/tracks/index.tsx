@@ -5,6 +5,7 @@ import MainLayout from '../../layouts';
 import { ITrack } from './types';
 import styles from './Tracks.module.css';
 import data from './tracks-mock.json'
+import TrackList from '../../components/TrackList';
 
 
 const Tracks = () => {
@@ -19,6 +20,7 @@ const Tracks = () => {
          <Button onClick={() => router.push('/tracks/create')}>Download</Button>
       </Grid>
     </Card>
+    <TrackList tracks={tracks} />
     </Grid>
     </MainLayout>
   );

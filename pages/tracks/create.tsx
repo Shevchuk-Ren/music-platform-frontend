@@ -1,9 +1,4 @@
-
-import { Card, Container, Grid } from '@mui/material';
 import React, { FC } from 'react';
-import ResponsiveAppBar from '../../components/NavBar';
-import { Props } from '../../layouts/types';
-import styles from './MainLayout.module.css';
 import MainLayout from '../../layouts';
 
 const Create: FC = () => {

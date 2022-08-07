@@ -1,5 +1,7 @@
 import { Box, Grid } from '@mui/material';
 import React, { FC } from 'react';
+import TrackItem from '../TrackItem';
+
 import { ITrackProps } from './types';
 
 const TrackList: FC<ITrackProps> = ({tracks}) => {
@@ -8,7 +10,10 @@ const TrackList: FC<ITrackProps> = ({tracks}) => {
    <>
    <Grid container direction={'column'}>
     <Box>
-        Hi
+        {
+          tracks.map((track) => 
+          <TrackItem key={track._id} track={track} isActive={false}/>
+        )}
     </Box>
 
    </Grid>
