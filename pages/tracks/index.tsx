@@ -6,6 +6,7 @@ import { ITrack } from './types';
 import styles from './Tracks.module.scss';
 import data from './tracks-mock.json'
 import TrackList from '../../components/TrackList';
+import { routes } from '../../shared/constants/router';
 
 
 const Tracks = () => {
@@ -17,7 +18,7 @@ const Tracks = () => {
      <Card className={styles.card}>
       <Grid container justifyContent='space-between'>
          <h1>Track List</h1>
-         <Button className={styles.button} onClick={() => router.push('/tracks/create')}>Download</Button>
+         <Button className={styles.button} onClick={() => router.push(routes.createTrack)}>Download</Button>
       </Grid>
     </Card>
     <TrackList tracks={tracks} />

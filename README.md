@@ -1,3 +1,8 @@
+
+## About
+In the process of developing!
+The design prototype for the smallest screen is now being created, and then I am moving to larger displays.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## What I used in this project

@@ -17,9 +17,10 @@ import { Stack } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import { LinkComponent } from '../Link';
 import { useRouter } from 'next/router';
+import { routes } from '../../shared/constants/router';
 
 
-const menuPages = [{text: 'Home', href: '/'}, { text: 'TrackList', href: '/tracks' }, { text: 'Albums', href: '/albums' }];
+const menuPages = [{text: 'Home', href: routes.home}, { text: 'TrackList', href: routes.tracks }, { text: 'Albums', href: routes.albums }];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const ResponsiveAppBar = () => {

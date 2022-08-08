@@ -3,3 +3,7 @@
     color: grayscale($color: #000000);
     margin-bottom: 10px;
 }
+.typography :hover {
+    text-decoration: underline #32557f dashed;
+    color: red
+}

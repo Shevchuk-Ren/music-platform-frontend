@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAA0B;EACjC,aAAa,EAAE,IAAI;CACtB",
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAA0B;EACjC,aAAa,EAAE,IAAI;CACtB;;AACD,AAAA,WAAW,CAAC,MAAM,CAAC;EACf,eAAe,EAAE,wBAAwB;EACzC,KAAK,EAAE,GACX;CAAC",
     "sources": [
         "TrackItem.module.scss"
     ],
