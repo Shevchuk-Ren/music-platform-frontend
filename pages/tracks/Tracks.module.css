@@ -1,4 +1,13 @@
 .card {
-    padding: 10px;
-    margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #706f68;
+  background: url("../../public/paper.jpg");
 }
+
+.button {
+  background-color: #2a2a26;
+  color: white;
+  opacity: 0.6;
+}
+/*# sourceMappingURL=Tracks.module.css.map */

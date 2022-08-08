@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import MainLayout from '../../layouts';
 import { ITrack } from './types';
-import styles from './Tracks.module.css';
+import styles from './Tracks.module.scss';
 import data from './tracks-mock.json'
 import TrackList from '../../components/TrackList';
 
@@ -17,7 +17,7 @@ const Tracks = () => {
      <Card className={styles.card}>
       <Grid container justifyContent='space-between'>
          <h1>Track List</h1>
-         <Button onClick={() => router.push('/tracks/create')}>Download</Button>
+         <Button className={styles.button} onClick={() => router.push('/tracks/create')}>Download</Button>
       </Grid>
     </Card>
     <TrackList tracks={tracks} />
